@@ -61,6 +61,8 @@ a {
 .nav-link:focus,
 .contacts-list:hover,
 .contacts-list:focus {
+    background-color: #404BBF;
+    background-color: #404BBF;
     color: #404bbf;
 }
 
@@ -117,11 +119,13 @@ a {
 }
 
 .taste-title {
+    background-color: #F4F4FD
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize
     color: #2e2f42;
 }
 
@@ -138,9 +142,10 @@ a {
 .portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize
     color: #2e2f42;
 }
 
