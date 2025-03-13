@@ -61,8 +61,6 @@ a {
 .nav-link:focus,
 .contacts-list:hover,
 .contacts-list:focus {
-    background-color: #404BBF;
-    background-color: #404BBF;
     color: #404bbf;
 }
 
@@ -86,10 +84,6 @@ a {
 .button {
     box-shadow: 0 px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -118,8 +112,12 @@ a {
     color: #434455;
 }
 
-.taste-title {
+
+.taste {
     background-color: #F4F4FD
+}
+
+.taste-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -139,7 +137,7 @@ a {
     color: #2e2f42;
 }
 
-.portfolio {
+.portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
