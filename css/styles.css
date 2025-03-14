@@ -57,11 +57,10 @@ a {
     color: #434455;
 }
 
-.contacts-list:hover {
-    color: #404bbf;
-}
-
-.contacts-list:focus {
+.contacts-link:hover,
+.contacts-link:focus,
+.button:hover,
+.button:focus {
     color: #404bbf;
 }
 
@@ -100,11 +99,6 @@ a {
     background-color: #404BBF;
 }
 
-.power-item {
-    width: 1128px;
-    height: 104px;
-    }
-
 .power-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -127,16 +121,16 @@ a {
 }
 
 .taste-list {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 .taste-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
     color: #2e2f42;
 }
 
@@ -154,9 +148,9 @@ a {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
     color: #2e2f42;
 }
 
